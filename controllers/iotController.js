@@ -16,5 +16,6 @@ const getDistance = async (req, res) => {
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
+const controlPump = async (req, res) => {};
 
-module.exports = { postDistance, getDistance };
+module.exports = { postDistance, getDistance, controlPump };
